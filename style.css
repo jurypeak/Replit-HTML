@@ -1,0 +1,64 @@
+body{
+  font-family: Verdana;
+  margin: auto;
+}
+
+h1{
+  font-family: Verdana;
+}
+
+#content {
+  max-width: 768px;
+  margin: auto;
+}
+
+nav {
+  background: #00c8ff;
+  padding: 10px;
+}
+
+#headertext{
+  font-family: Verdana;
+  float: right;
+  padding-top: 25px;
+  padding-right: 200px;
+  font-size: 20px
+}
+
+#footertext{
+  font-family: Verdana;
+  padding-left: 1150px;
+  font-size: 17px
+}
+
+li {
+  display: inline;
+  color: white;
+}
+
+p {
+  font-family: Verdana;
+  padding: 0 0 0 0px;
+  margin: 0px;
+}
+
+#images {
+  max-width: 768px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+footer {
+  background: #D1E9FE;
+  padding-top: 15px;
+  height: 40px;
+  width: 100%;
+}
+
+li:hover {
+  color: red;
+}
+
+a{
+  color: white
+}
