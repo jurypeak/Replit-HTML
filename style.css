@@ -1,0 +1,14 @@
+body {
+background: #00979E;
+margin: 0px;
+}
+
+p {
+  color: black;
+  font-family: Tahoma;
+  font-size: 12px;
+}
+
+nav { 
+  padding: 10px 10px;
+}
