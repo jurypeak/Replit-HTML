@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Interface Beauty</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+
+ <header>
+    <img src="images/logo.png" style="float:right;
+    padding-right: 750px; width="240px"; height="80px">
+ </header>
+
+ <nav>
+      <li>Home </li>
+      <li>Products <li>
+      <li>Brand </li>
+      <li>Sale </li>
+      <li>Feedback </li>
+      <li>Review </li>
+</nav>
+
+<main class="transparent">
+<label for="Title">Title:</label><br>
+
+<select name="Title" id="Title" form="titleform" required />
+  <option value="Mr">Mr</option>
+  <option value="saab">Mrs</option>
+  <option value="mercedes">Miss</option>
+  <option value="audi">Ms</option>
+  <option value="audi">Mx</option>
+</select>
+  
+<form class="fname">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" required /><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" required />
+</form>
+
+<form class="product">
+  <label for="product">Product:</label><br>
+  <input type="text" id="product" name="product" required=minlength="20"><br>
+</form>
+
+<form class="rating">
+  <label for="rating">Rating (0-5)</label><br>
+  <input type="number" id="rating" name="rating" required=min="0" max="5"><br>
+</form>
+
+<p>Would you recommend us?</p>
+
+<form class="fix">
+  <input type="radio" id="yes" name="recommend" value="yes">
+  <label for="yes">Yes</label><br>
+  <input type="radio" id="no" name="recommend" value="no">
+  <label for="no">No</label><br>
+</form>
+
+<p>Review:</p>
+<textarea name="review" rows="8" cols="50">
+</textarea><br>
+
+<form>
+<input type="submit" value="Submit">
+</form>

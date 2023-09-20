@@ -1,0 +1,59 @@
+body{
+  background-image: url(images/backdrop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header{
+  background: #FFFFFF;
+  width: 920px;
+  height: 80px;
+  float: right;
+
+}
+
+nav{
+  padding-top: 5px;
+  background:#FEE7C8;
+  width: 978px;
+  height: 25px;
+  float: right;
+}
+
+li {
+  display: inline;
+  color: black;
+  word-spacing: 10px;
+  font-family: 'Trebuchet MS';
+  padding-left: 10px;
+}
+
+main{
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 968px;
+  height: 600px;
+  float: right;
+  opacity: 1;
+}
+
+.transparent{
+    background-color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.product{
+  padding-top: 20px
+}
+
+.fname{
+  padding-top: 5px;
+}
+
+textarea{
+  padding-left: 10px
+}
+
+.fix{
+  padding-bottom: 10px
+}
